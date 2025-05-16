@@ -42,8 +42,6 @@ const ProductList = (props: any) => {
   // Add category mapping
   const categoryLabels: { [key: string]: string } = {
     'all': 'Tất cả danh mục',
-    'book': 'Sách & Tài liệu',
-    'clothing': 'Thời trang',
     'laptop': 'Máy tính xách tay',
     'mobile': 'Điện thoại di động',
     'tablet': 'Máy tính bảng'

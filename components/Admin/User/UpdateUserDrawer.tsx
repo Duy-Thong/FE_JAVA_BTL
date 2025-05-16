@@ -83,7 +83,7 @@ const UpdateUserDrawer: React.FC<UpdateUserDrawerProps> = ({ userData, onUpdateS
                 icon={<EditOutlined />}
             ></Button>
             <Drawer
-                title={`Cập nhật người dùng ${userData.id}`}
+                title={`Cập nhật người dùng ${userData.name}`}
                 width={600}
                 onClose={onClose}
                 open={open}

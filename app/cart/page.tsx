@@ -195,7 +195,7 @@ const CartPage: React.FC = () => {
     }, [groupedCartItems]);
 
     const calcDiscountAmount = useMemo(() => {
-        return calcTotalPrice * 0.1; // 10% discount
+        return 0; // Không giảm giá thêm vì sản phẩm đã được giảm giá từ trang chi tiết
     }, [calcTotalPrice]);
 
     const calcFinalPrice = useMemo(() => {
@@ -266,8 +266,8 @@ const CartPage: React.FC = () => {
                     price: item.price,
                 })),
                 originalAmount: calcTotalPrice,
-                discountAmount: calcDiscountAmount,
-                totalAmount: calcFinalPrice,
+                discountAmount: 0, // Không giảm giá thêm
+                totalAmount: calcTotalPrice,
                 phoneNumber: values.phone,
                 shippingAddress: values.address,
                 customerName: values.fullName,
@@ -416,12 +416,9 @@ const CartPage: React.FC = () => {
                                         </Text>
                                     </div>
                                     <div className="flex items-center justify-between text-red-500">
-                                        <Text>Giảm giá (10%)</Text>
+                                        <Text>Đã giảm giá (10%)</Text>
                                         <Text strong>
-                                            -{new Intl.NumberFormat('vi-VN', {
-                                                style: 'currency',
-                                                currency: 'VND',
-                                            }).format(calcDiscountAmount)}
+                                            Đã áp dụng
                                         </Text>
                                     </div>
                                     <Divider style={{ margin: '12px 0' }} />

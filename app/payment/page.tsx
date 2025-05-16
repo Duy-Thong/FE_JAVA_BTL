@@ -13,14 +13,15 @@ const PaymentPage = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [userId, setUserId] = useState<string | null>(null);
     const [discountAmount, setDiscountAmount] = useState(0);
-    const [appliedDiscountCode, setAppliedDiscountCode] = useState<string | null>(null);
+    const [appliedDiscountCode, setAppliedDiscountCode] = useState<
+        string | null
+    >(null);
 
     useEffect(() => {
         const savedOrder = localStorage.getItem('pendingOrder');
         const userData = JSON.parse(localStorage.getItem('userData') || '{}');
         const userIdFromStorage = userData.id;
 
-        
         if (!savedOrder) {
             router.push('/cart');
             return;
@@ -29,7 +30,7 @@ const PaymentPage = () => {
             router.push('/login');
             return;
         }
-        
+
         setUserId(userIdFromStorage);
         setOrderData(JSON.parse(savedOrder));
     }, [router]);
@@ -40,18 +41,26 @@ const PaymentPage = () => {
                 order_number: orderData.orderId,
                 order_total: new Intl.NumberFormat('vi-VN', {
                     style: 'currency',
-                    currency: 'VND'
+                    currency: 'VND',
                 }).format(orderData.totalAmount),
                 customer_name: orderData.customerName || 'Khách hàng',
                 shipping_address: orderData.shippingAddress,
                 phone_number: orderData.phoneNumber,
-                payment_method: orderData.paymentMethod === 'COD' ? 'Thanh toán khi nhận hàng' : 'Thanh toán thẻ',
-                order_items: orderData.orderItems.map((item: any) => 
-                    `${item.productId} - SL: ${item.quantity} - Giá: ${new Intl.NumberFormat('vi-VN', {
-                        style: 'currency',
-                        currency: 'VND'
-                    }).format(item.price)}`
-                ).join('\n')
+                payment_method:
+                    orderData.paymentMethod === 'COD'
+                        ? 'Thanh toán khi nhận hàng'
+                        : 'Thanh toán thẻ',
+                order_items: orderData.orderItems
+                    .map(
+                        (item: any) =>
+                            `${item.productId} - SL: ${
+                                item.quantity
+                            } - Giá: ${new Intl.NumberFormat('vi-VN', {
+                                style: 'currency',
+                                currency: 'VND',
+                            }).format(item.price)}`,
+                    )
+                    .join('\n'),
             };
 
             const result = await emailjs.send(
@@ -60,7 +69,7 @@ const PaymentPage = () => {
                 templateParams,
                 'GMDxfdGqL-yu58YOF',
             );
-            
+
             console.log('Admin notification email sent successfully:', result);
         } catch (error) {
             console.error('Error sending admin notification:', error);
@@ -77,18 +86,21 @@ const PaymentPage = () => {
                 notes: orderData.note || '',
                 shippingFee: 0,
                 status: 'PENDING',
-                order: { id: orderId }
+                order: { id: orderId },
             };
 
-            const response = await fetch('http://localhost:8080/api/shipments', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
+            const response = await fetch(
+                'http://localhost:8080/api/shipments',
+                {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        Accept: 'application/json',
+                    },
+                    credentials: 'include',
+                    body: JSON.stringify(shipmentPayload),
                 },
-                credentials: 'include',
-                body: JSON.stringify(shipmentPayload),
-            });
+            );
 
             if (!response.ok) {
                 const errorData = await response.text();
@@ -103,20 +115,27 @@ const PaymentPage = () => {
             return data;
         } catch (error) {
             console.error('Shipment creation error:', error);
-            throw new Error(error instanceof Error ? error.message : 'Failed to create shipment');
+            throw new Error(
+                error instanceof Error
+                    ? error.message
+                    : 'Failed to create shipment',
+            );
         }
     };
 
     // Update clearCart function to properly handle the response
     const clearCart = async (cartId: string) => {
         try {
-            const response = await fetch(`http://localhost:8080/api/cart/${cartId}/clear`, {
-                method: 'DELETE',
-                credentials: 'include',
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            });
+            const response = await fetch(
+                `http://localhost:8080/api/cart/${cartId}/clear`,
+                {
+                    method: 'DELETE',
+                    credentials: 'include',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                },
+            );
 
             if (!response.ok) {
                 throw new Error('Failed to clear cart');
@@ -128,40 +147,48 @@ const PaymentPage = () => {
             console.error('Error clearing cart:', error);
             notification.error({
                 message: 'Error',
-                description: 'Failed to clear cart items'
+                description: 'Failed to clear cart items',
             });
         }
     };
 
     const getDiscount = async (code: string) => {
         try {
-            const response = await fetch(`http://localhost:8080/api/discounts/${encodeURIComponent(code)}`, {
-                method: 'GET',
-                headers: {
-                    'Accept': 'application/json'
+            const response = await fetch(
+                `http://localhost:8080/api/client/discounts/validate?code=${encodeURIComponent(
+                    code,
+                )}&orderAmount=${orderData.totalAmount}`,
+                {
+                    method: 'GET',
+                    headers: {
+                        Accept: 'application/json',
+                    },
+                    credentials: 'include',
                 },
-                credentials: 'include'
-            });
+            );
 
             if (!response.ok) {
                 throw new Error('Mã giảm giá không hợp lệ');
             }
 
             const discount = await response.json();
-            if (!discount) {
-                throw new Error('Không tìm thấy mã giảm giá');
+
+            // Handle invalid discount response from new API
+            if (discount.valid === false) {
+                throw new Error(discount.message || 'Mã giảm giá không hợp lệ');
             }
 
             // Calculate discount amount based on discount type
-            const discountAmount = discount.type === 'PERCENTAGE' 
-                ? (orderData.totalAmount * discount.value / 100)
-                : discount.value;
+            const discountAmount =
+                discount.type === 'PERCENTAGE'
+                    ? (orderData.totalAmount * discount.value) / 100
+                    : discount.value;
 
             // Apply max discount amount if specified
-            return discount.maxDiscountAmount && discountAmount > discount.maxDiscountAmount 
-                ? discount.maxDiscountAmount 
+            return discount.maxDiscountAmount &&
+                discountAmount > discount.maxDiscountAmount
+                ? discount.maxDiscountAmount
                 : discountAmount;
-
         } catch (error) {
             console.error('Error getting discount:', error);
             throw error;
@@ -172,7 +199,7 @@ const PaymentPage = () => {
         if (!code) {
             notification.error({
                 message: 'Lỗi',
-                description: 'Vui lòng nhập mã giảm giá'
+                description: 'Vui lòng nhập mã giảm giá',
             });
             return;
         }
@@ -183,15 +210,21 @@ const PaymentPage = () => {
             setAppliedDiscountCode(code);
             notification.success({
                 message: 'Thành công',
-                description: `Đã áp dụng mã giảm giá: ${new Intl.NumberFormat('vi-VN', {
-                    style: 'currency',
-                    currency: 'VND'
-                }).format(discountValue)}`
+                description: `Đã áp dụng mã giảm giá: ${new Intl.NumberFormat(
+                    'vi-VN',
+                    {
+                        style: 'currency',
+                        currency: 'VND',
+                    },
+                ).format(discountValue)}`,
             });
         } catch (error) {
             notification.error({
                 message: 'Lỗi',
-                description: error instanceof Error ? error.message : 'Không thể áp dụng mã giảm giá'
+                description:
+                    error instanceof Error
+                        ? error.message
+                        : 'Không thể áp dụng mã giảm giá',
             });
         }
     };
@@ -207,70 +240,109 @@ const PaymentPage = () => {
                 customerName: orderData.customerName,
                 note: orderData.note,
                 paymentMethod: values.paymentMethod,
-                cardNumber: values.paymentMethod === 'CARD' ? values.cardNumber : null,
-                cardHolder: values.paymentMethod === 'CARD' ? values.cardHolder : null,
+                cardNumber:
+                    values.paymentMethod === 'CARD' ? values.cardNumber : null,
+                cardHolder:
+                    values.paymentMethod === 'CARD' ? values.cardHolder : null,
                 status: 'PENDING',
-                user: { id: userId },  // Add user information
+                user: { id: userId }, // Add user information
                 discountCode: appliedDiscountCode,
                 discountAmount: discountAmount,
                 finalAmount: orderData.totalAmount - discountAmount,
             };
 
-            const orderResponse = await fetch('http://localhost:8080/api/orders/create', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
+            const orderResponse = await fetch(
+                'http://localhost:8080/api/orders/create',
+                {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    credentials: 'include',
+                    body: JSON.stringify(orderPayload),
                 },
-                credentials: 'include',
-                body: JSON.stringify(orderPayload),
-            });
+            );
 
             const orderResponseData = await orderResponse.json();
 
             if (!orderResponse.ok) {
-                throw new Error(orderResponseData.message || 'Failed to create order');
+                throw new Error(
+                    orderResponseData.message || 'Failed to create order',
+                );
+            }
+
+            // Update discount usage if a discount code was applied
+            if (appliedDiscountCode) {
+                try {
+                    const discountUpdateResponse = await fetch(
+                        `http://localhost:8080/api/discounts/use/${appliedDiscountCode}`,
+                        {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            credentials: 'include',
+                        }
+                    );
+                    
+                    if (!discountUpdateResponse.ok) {
+                        console.error('Failed to update discount usage');
+                    }
+                } catch (discountError) {
+                    console.error('Error updating discount usage:', discountError);
+                    // Continue with order process even if discount update fails
+                }
             }
 
             let shipmentResult;
             try {
-                shipmentResult = await createShipment(orderResponseData.id, orderData);
+                shipmentResult = await createShipment(
+                    orderResponseData.id,
+                    orderData,
+                );
                 console.log('Shipment created:', shipmentResult);
             } catch (shipmentError) {
                 console.error('Shipment creation failed:', shipmentError);
                 // Continue with the order process even if shipment creation fails
             }
 
-            const orderItemsPromises = orderData.items.map(async (item: any) => {
-                const orderItemPayload = {
-                    order: { id: orderResponseData.id },
-                    product: { id: item.productId },
-                    quantity: item.quantity,
-                    price: item.price
-                };
+            const orderItemsPromises = orderData.items.map(
+                async (item: any) => {
+                    const orderItemPayload = {
+                        order: { id: orderResponseData.id },
+                        product: { id: item.productId },
+                        quantity: item.quantity,
+                        price: item.price,
+                    };
 
-                return fetch('http://localhost:8080/api/orderItems', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    credentials: 'include',
-                    body: JSON.stringify(orderItemPayload),
-                });
-            });
+                    return fetch('http://localhost:8080/api/orderItems', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        credentials: 'include',
+                        body: JSON.stringify(orderItemPayload),
+                    });
+                },
+            );
 
             await Promise.all(orderItemsPromises);
 
             await sendOrderNotificationToAdmin({
                 ...orderPayload,
                 orderId: orderResponseData.id,
-                orderItems: orderData.items
+                orderItems: orderData.items,
             });
 
             // Get cartId from localStorage or state
-            const userData = JSON.parse(localStorage.getItem('userData') || '{}');
-            const cartResponse = await fetch(`http://localhost:8080/api/cart/user/${userData.id}`);
+            const userData = JSON.parse(
+                localStorage.getItem('userData') || '{}',
+            );
+            const cartResponse = await fetch(
+                `http://localhost:8080/api/cart/user/${userData.id}`,
+            );
             const cartData = await cartResponse.json();
-            
+
             if (cartData && cartData.id) {
                 await clearCart(cartData.id);
             }
@@ -278,7 +350,7 @@ const PaymentPage = () => {
             localStorage.removeItem('pendingOrder');
             notification.success({
                 message: 'Order placed successfully',
-                description: 'Your cart has been cleared'
+                description: 'Your cart has been cleared',
             });
 
             router.push('/'); // Changed from '/order-success' to '/'
@@ -286,9 +358,10 @@ const PaymentPage = () => {
             console.error('Error details:', error);
             notification.error({
                 message: 'Lỗi đặt hàng',
-                description: error instanceof Error ? 
-                    error.message : 
-                    'Có lỗi xảy ra trong quá trình đặt hàng. Vui lòng thử lại sau.'
+                description:
+                    error instanceof Error
+                        ? error.message
+                        : 'Có lỗi xảy ra trong quá trình đặt hàng. Vui lòng thử lại sau.',
             });
         } finally {
             setIsSubmitting(false);
@@ -305,8 +378,8 @@ const PaymentPage = () => {
             <div className="min-h-screen bg-gray-50 py-8">
                 <div className="mx-auto max-w-3xl px-4">
                     <div className="rounded-lg bg-white p-8 shadow">
-                        <h1 className="text-2xl font-bold mb-6">Thanh toán</h1>
-                        
+                        <h1 className="mb-6 text-2xl font-bold">Thanh toán</h1>
+
                         <Form
                             form={form}
                             layout="vertical"
@@ -314,7 +387,9 @@ const PaymentPage = () => {
                         >
                             {/* Add discount code section */}
                             <div className="mb-6">
-                                <h3 className="text-lg font-semibold mb-4">Mã giảm giá</h3>
+                                <h3 className="mb-4 text-lg font-semibold">
+                                    Mã giảm giá
+                                </h3>
                                 <div className="flex gap-2">
                                     <Form.Item
                                         name="discountCode"
@@ -322,25 +397,45 @@ const PaymentPage = () => {
                                     >
                                         <Input placeholder="Nhập mã giảm giá" />
                                     </Form.Item>
-                                    <Button 
-                                        onClick={() => handleApplyDiscount(form.getFieldValue('discountCode'))}
+                                    <Button
+                                        onClick={() =>
+                                            handleApplyDiscount(
+                                                form.getFieldValue(
+                                                    'discountCode',
+                                                ),
+                                            )
+                                        }
                                     >
                                         Áp dụng
                                     </Button>
                                 </div>
                             </div>
 
-                            <h3 className="text-lg font-semibold mb-4">Phương thức thanh toán</h3>
+                            <h3 className="mb-4 text-lg font-semibold">
+                                Phương thức thanh toán
+                            </h3>
                             <Form.Item
                                 name="paymentMethod"
-                                rules={[{ required: true, message: 'Vui lòng chọn phương thức thanh toán' }]}
+                                rules={[
+                                    {
+                                        required: true,
+                                        message:
+                                            'Vui lòng chọn phương thức thanh toán',
+                                    },
+                                ]}
                             >
                                 <Radio.Group className="w-full">
                                     <div className="space-y-4">
-                                        <Radio value="COD" className="w-full border p-4 rounded-lg">
+                                        <Radio
+                                            value="COD"
+                                            className="w-full rounded-lg border p-4"
+                                        >
                                             Thanh toán khi nhận hàng (COD)
                                         </Radio>
-                                        <Radio value="CARD" className="w-full border p-4 rounded-lg">
+                                        <Radio
+                                            value="CARD"
+                                            className="w-full rounded-lg border p-4"
+                                        >
                                             Thanh toán bằng thẻ
                                         </Radio>
                                     </div>
@@ -349,24 +444,38 @@ const PaymentPage = () => {
 
                             <Form.Item
                                 noStyle
-                                shouldUpdate={(prevValues, currentValues) => 
-                                    prevValues.paymentMethod !== currentValues.paymentMethod
+                                shouldUpdate={(prevValues, currentValues) =>
+                                    prevValues.paymentMethod !==
+                                    currentValues.paymentMethod
                                 }
                             >
-                                {({ getFieldValue }) => 
-                                    getFieldValue('paymentMethod') === 'CARD' ? (
+                                {({ getFieldValue }) =>
+                                    getFieldValue('paymentMethod') ===
+                                    'CARD' ? (
                                         <div className="space-y-4">
                                             <Form.Item
                                                 name="cardNumber"
                                                 label="Số thẻ"
-                                                rules={[{ required: true, message: 'Vui lòng nhập số thẻ' }]}
+                                                rules={[
+                                                    {
+                                                        required: true,
+                                                        message:
+                                                            'Vui lòng nhập số thẻ',
+                                                    },
+                                                ]}
                                             >
                                                 <Input placeholder="1234 5678 9012 3456" />
                                             </Form.Item>
                                             <Form.Item
                                                 name="cardHolder"
                                                 label="Tên chủ thẻ"
-                                                rules={[{ required: true, message: 'Vui lòng nhập tên chủ thẻ' }]}
+                                                rules={[
+                                                    {
+                                                        required: true,
+                                                        message:
+                                                            'Vui lòng nhập tên chủ thẻ',
+                                                    },
+                                                ]}
                                             >
                                                 <Input placeholder="NGUYEN VAN A" />
                                             </Form.Item>
@@ -376,33 +485,37 @@ const PaymentPage = () => {
                             </Form.Item>
 
                             <div className="mt-6 border-t pt-6">
-                                <div className="flex justify-between mb-2">
+                                <div className="mb-2 flex justify-between">
                                     <span>Tổng tiền hàng:</span>
                                     <span className="font-semibold">
                                         {new Intl.NumberFormat('vi-VN', {
                                             style: 'currency',
-                                            currency: 'VND'
+                                            currency: 'VND',
                                         }).format(orderData.totalAmount)}
                                     </span>
                                 </div>
                                 {discountAmount > 0 && (
-                                    <div className="flex justify-between mb-2 text-green-600">
+                                    <div className="mb-2 flex justify-between text-green-600">
                                         <span>Giảm giá:</span>
                                         <span className="font-semibold">
-                                            -{new Intl.NumberFormat('vi-VN', {
+                                            -
+                                            {new Intl.NumberFormat('vi-VN', {
                                                 style: 'currency',
-                                                currency: 'VND'
+                                                currency: 'VND',
                                             }).format(discountAmount)}
                                         </span>
                                     </div>
                                 )}
-                                <div className="flex justify-between mb-4 text-lg font-bold">
+                                <div className="mb-4 flex justify-between text-lg font-bold">
                                     <span>Tổng thanh toán:</span>
                                     <span>
                                         {new Intl.NumberFormat('vi-VN', {
                                             style: 'currency',
-                                            currency: 'VND'
-                                        }).format(orderData.totalAmount - discountAmount)}
+                                            currency: 'VND',
+                                        }).format(
+                                            orderData.totalAmount -
+                                                discountAmount,
+                                        )}
                                     </span>
                                 </div>
                                 <Button

@@ -79,6 +79,15 @@ const CartDetailItem: React.FC<CartDetailItemProps> = ({
                         style: 'currency',
                         currency: 'VND',
                     }).format(cart.price)}
+                    <span className="inline-block ml-2 line-through text-gray-400 text-xs">
+                        {new Intl.NumberFormat('vi-VN', {
+                            style: 'currency',
+                            currency: 'VND',
+                        }).format(cart.price * 1.1)}
+                    </span>
+                    <span className="inline-block ml-2 bg-red-100 text-red-600 text-xs px-1 rounded">
+                        -10%
+                    </span>
                 </div>
                 <div className="flex items-center gap-2">
                     <div className="flex items-center border rounded">

@@ -42,6 +42,12 @@ interface Product {
     totalRatings: number;
 }
 
+// Define a type for the category items
+interface CategoryItem {
+    id: string;
+    [key: string]: any;
+}
+
 const ProductPage = () => {
     const params = useParams();
     const router = useRouter();
@@ -70,7 +76,7 @@ const ProductPage = () => {
 
                         // Filter out the current product and get 5 similar products
                         const filteredItems = categoryResponse.data
-                            .filter((item) => item.id !== params.productId)
+                            .filter((item: CategoryItem) => item.id !== params.productId)
                             .slice(0, 5);
                             
                         setOtherProducts(filteredItems);
@@ -104,27 +110,31 @@ const ProductPage = () => {
 
         fetchData();
     }, [params]);
-const getCartId = async (userId: string) => {
-    try {
-        const response = await fetch(
-            `http://localhost:8080/api/cart/user/${userId}`,
-            {
-                credentials: 'include',
-            },
-        );
-        if (!response.ok) {
-            throw new Error('Failed to fetch cart');
+
+    const getCartId = async (userId: string) => {
+        try {
+            const response = await fetch(
+                `http://localhost:8080/api/cart/user/${userId}`,
+                {
+                    credentials: 'include',
+                },
+            );
+            if (!response.ok) {
+                throw new Error('Failed to fetch cart');
+            }
+            const cartData = await response.json();
+            console.log('cartData: ', cartData);
+            // cartData is now a Cart object with id property
+            return cartData.id;
+        } catch (error) {
+            console.error('Error fetching cart:', error);
+            return null;
         }
-        const cartData = await response.json();
-        console.log('cartData: ', cartData);
-        // cartData is now a Cart object with id property
-        return cartData.id;
-    } catch (error) {
-        console.error('Error fetching cart:', error);
-        return null;
-    }
-};
-    const addToCart = async (product) => {
+    };
+
+    const addToCart = async (product: Product | null) => {
+        if (!product) return;
+        
         try {
             const userData = JSON.parse(
                 localStorage.getItem('userData') || '{}',
@@ -179,6 +189,11 @@ const getCartId = async (userId: string) => {
             );
             const userId = userData.id;
 
+            if (!params) {
+                message.error('Không thể xác định sản phẩm');
+                return;
+            }
+
             const ratingSubmission: RatingSubmission = {
                 rating: values.rating, // Changed from score to rating
                 comment: values.comment || '',
@@ -231,15 +246,17 @@ const getCartId = async (userId: string) => {
     const productItems = [
         {
             key: 'name',
+            label: '',
             children: (
                 <h1 className="mb-2 text-3xl font-bold text-gray-800">
                     {productData?.name}
                 </h1>
             ),
-            span: 3,
+            span: 1,
         },
         {
             key: 'rating',
+            label: '',
             children: productData && (
                 <div className="mb-4 flex items-center gap-2">
                     <Rate
@@ -252,10 +269,11 @@ const getCartId = async (userId: string) => {
                     </span>
                 </div>
             ),
-            span: 3,
+            span: 1,
         },
         {
             key: 'price',
+            label: '',
             children: productData?.price ? (
                 <div className="mb-4 bg-blue-50 p-4 rounded-lg border-2 border-blue-200">
                     <div className="flex items-center justify-between">
@@ -280,10 +298,11 @@ const getCartId = async (userId: string) => {
                     </div>
                 </div>
             ) : null,
-            span: 3,
+            span: 1,
         },
         {
             key: 'promotions',
+            label: '',
             children: (
                 <div className="mb-4 bg-gradient-to-r from-blue-50 to-white p-4 rounded-lg border-l-4 border-blue-600">
                     <div className="flex items-center gap-2 mb-3">
@@ -308,7 +327,7 @@ const getCartId = async (userId: string) => {
                     </ul>
                 </div>
             ),
-            span: 3,
+            span: 1,
         }
     ];
 
@@ -322,12 +341,20 @@ const getCartId = async (userId: string) => {
                             GIẢM GIÁ 10%
                         </div>
                     </div>
-                    <Image
-                        src={productData?.img_url || ''}
-                        alt="Hình ảnh sản phẩm"
-                        fill
-                        className="object-contain"
-                    />
+                    {productData?.img_url ? (
+                        <Image
+                            src={productData.img_url}
+                            alt="Hình ảnh sản phẩm"
+                            fill
+                            className="object-contain"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            priority
+                        />
+                    ) : (
+                        <div className="w-full h-full flex items-center justify-center text-gray-400">
+                            Hình ảnh đang tải...
+                        </div>
+                    )}
                 </div>
 
                 {/* Product Info Section */}
@@ -455,7 +482,7 @@ const getCartId = async (userId: string) => {
                     Không có sản phẩm tương tự
                 </div>
             )}
-            </div>
+        </div>
     );
 };
 

@@ -28,7 +28,21 @@ export const useDiscounts = () => {
         const response = await fetch('/api/discounts');
         if (!response.ok) throw new Error('Failed to fetch discounts');
         const data = await response.json();
-        setDiscounts(data.filter((discount: Discount) => discount.isActive));
+        
+        // Filter active discounts
+        const activeDiscounts = data.filter((discount: Discount) => discount.isActive);
+        
+        // Remove duplicates by keeping only the first occurrence of each discount ID
+        const uniqueIds = new Set<string>();
+        const uniqueDiscounts = activeDiscounts.filter((discount: Discount) => {
+          if (uniqueIds.has(discount.id)) {
+            return false;
+          }
+          uniqueIds.add(discount.id);
+          return true;
+        });
+        
+        setDiscounts(uniqueDiscounts);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred');
       } finally {

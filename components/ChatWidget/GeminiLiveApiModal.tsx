@@ -17,8 +17,8 @@ const GeminiLiveApiModal: React.FC<{
         <div
             style={{
                 position: 'fixed',
-                left: 200,
-                bottom: 32,
+                left: 10,
+                bottom: 10,
                 background: 'rgba(30, 41, 59, 0.10)', // subtle dark overlay
                 display: 'flex',
                 alignItems: 'flex-end',
@@ -31,7 +31,6 @@ const GeminiLiveApiModal: React.FC<{
             <div
                 style={{
                     background: '#fff',
-
 
                     display: 'flex',
                     alignItems: 'center',

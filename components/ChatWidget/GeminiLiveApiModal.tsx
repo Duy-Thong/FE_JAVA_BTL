@@ -17,43 +17,56 @@ const GeminiLiveApiModal: React.FC<{
         <div
             style={{
                 position: 'fixed',
-                top: 0,
-                left: 0,
-                width: '100vw',
-                height: '100vh',
-                background: 'rgba(0,0,0,0.35)',
-                zIndex: 2000,
+                left: 200,
+                bottom: 32,
+                background: 'rgba(30, 41, 59, 0.10)', // subtle dark overlay
                 display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
+                alignItems: 'flex-end',
+                justifyContent: 'flex-start',
+                zIndex: 9999,
+                pointerEvents: 'auto',
+                boxShadow: 'none',
             }}
         >
             <div
                 style={{
                     background: '#fff',
-                    borderRadius: 12,
-                    width: 1100,
-                    height: 700,
-                    boxShadow: '0 8px 32px rgba(0,0,0,0.18)',
+
+
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
                     position: 'relative',
-                    overflow: 'hidden',
+                    transition: 'box-shadow 0.2s',
                 }}
             >
                 <Button
                     onClick={onClose}
                     style={{
                         position: 'absolute',
-                        top: 12,
-                        right: 12,
+                        top: 6,
+                        right: 6,
                         zIndex: 10,
+                        padding: '2px 10px',
+                        fontSize: 13,
+                        height: 28,
+                        background: '#f1f5f9',
+                        border: 'none',
+                        borderRadius: 6,
+                        color: '#334155',
+                        boxShadow: '0 1px 4px 0 rgba(30,41,59,0.06)',
+                        fontWeight: 500,
+                        transition: 'background 0.2s',
                     }}
-                    icon={<ThunderboltOutlined />}
+                    icon={
+                        <ThunderboltOutlined
+                            style={{ fontSize: 15, color: '#f59e42' }}
+                        />
+                    }
                 >
-                    Đóng Live API
+                    Đóng
                 </Button>
-                <div
-                    style={{ width: '100%', height: '100%', overflow: 'auto' }}
-                >
+                <div style={{ width: '100%', height: '100%' }}>
                     <LiveApiApp />
                 </div>
             </div>

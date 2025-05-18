@@ -1,7 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { GoogleGenAI } from '@google/genai';
 import { Input, Button, Typography, Divider } from 'antd';
-import { MessageOutlined, CloseCircleFilled } from '@ant-design/icons';
+import {
+    MessageOutlined,
+    CloseCircleFilled,
+    ThunderboltOutlined,
+} from '@ant-design/icons';
+import GeminiLiveApiModal from './GeminiLiveApiModal';
 
 const { Text } = Typography;
 
@@ -16,6 +21,7 @@ const GeminiChatWidget: React.FC = () => {
         [],
     );
     const [loading, setLoading] = useState(false);
+    const [showLiveApi, setShowLiveApi] = useState(false);
     const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
@@ -90,6 +96,24 @@ const GeminiChatWidget: React.FC = () => {
                 }}
                 aria-label="Chat với Gemini"
             />
+            <Button
+                type="primary"
+                icon={<ThunderboltOutlined />}
+                style={{
+                    position: 'fixed',
+                    bottom: 100,
+                    right: 32,
+                    zIndex: 1100,
+                    background: '#ffd700',
+                    color: '#222',
+                    border: 'none',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
+                    fontWeight: 600,
+                }}
+                onClick={() => setShowLiveApi(true)}
+            >
+                Live API
+            </Button>
             {open && (
                 <div
                     style={{
@@ -190,7 +214,6 @@ const GeminiChatWidget: React.FC = () => {
                                     marginTop: 4,
                                 }}
                             >
-                               
                                 <span className="gemini-typing">
                                     <span className="dot">.</span>
                                     <span className="dot">.</span>
@@ -235,6 +258,10 @@ const GeminiChatWidget: React.FC = () => {
                     </div>
                 </div>
             )}
+            <GeminiLiveApiModal
+                open={showLiveApi}
+                onClose={() => setShowLiveApi(false)}
+            />
             <style>{`
             .gemini-typing {
               display: inline-block;

@@ -1,0 +1,842 @@
+[
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/274018/samsung-galaxy-a24-black-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A24",
+        "price": 6190000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a24",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/299034/oppo-find-n2-flip-purple-thumb-1-600x600-1-600x600.jpg",
+        "name": "OPPO Find N2 Flip 5G",
+        "price": 19990000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-find-n2-flip",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-den-thumb-600x600.jpg",
+        "name": "iPhone 14 Pro Max",
+        "price": 26690000,
+        "url": "https://www.thegioididong.com/dtdd/iphone-14-pro-max",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-vang-thumb-600x600.jpg",
+        "name": "iPhone 14 Pro",
+        "price": 24990000,
+        "url": "https://www.thegioididong.com/dtdd/iphone-14-pro",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/267211/Samsung-Galaxy-S21-FE-vang-1-2-600x600.jpg",
+        "name": "Samsung Galaxy S21 FE 5G",
+        "price": 9990000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-s21-fe-6gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/303575/xiaomi-redmi-12c-grey-thumb-600x600.jpg",
+        "name": "Xiaomi Redmi 12C",
+        "price": 2990000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-12c-64gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-600x600.jpg",
+        "name": "Samsung Galaxy S23 Ultra 5G",
+        "price": 26990000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-s23-ultra",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-xi-den-600x600.jpg",
+        "name": "iPhone 11",
+        "price": 10390000,
+        "url": "https://www.thegioididong.com/dtdd/iphone-11",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/303298/xiaomi-redmi-note-12-4g-mono-den-600x600.jpg",
+        "name": "Xiaomi Redmi Note 12 4G",
+        "price": 5790000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-note-12-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/286697/vivo-y35-thumb-den-600x600.jpg",
+        "name": "Vivo Y35",
+        "price": 5790000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y35-2022",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/301642/oppo-reno8t-vang1-thumb-600x600.jpg",
+        "name": "OPPO Reno8 T 5G",
+        "price": 10990000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-reno8-t-5g-256gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/301603/realme-c35-vang-thumb-600x600.jpg",
+        "name": "realme C55",
+        "price": 4590000,
+        "url": "https://www.thegioididong.com/dtdd/realme-c55",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/262650/samsung-galaxy-a23-cam-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A23",
+        "price": 4890000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a23",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/224859/samsung-galaxy-s20-fan-edition-xanh-la-thumbnew-600x600.jpeg",
+        "name": "Samsung Galaxy S20 FE (8GB/256GB)",
+        "price": 9490000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-s20-fan-edition",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/240259/iPhone-14-thumb-do-600x600.jpg",
+        "name": "iPhone 14",
+        "price": 19490000,
+        "url": "https://www.thegioididong.com/dtdd/iphone-14",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/283148/vivo-v25-5g-vang-thumb-1-1-600x600.jpg",
+        "name": "Vivo V25 series",
+        "price": 9490000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-v25",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/290877/Realme-c30s-xanh-temp-600x600.jpg",
+        "name": "realme C30s",
+        "price": 2190000,
+        "url": "https://www.thegioididong.com/dtdd/realme-c30s-2gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/290829/samsung-galaxy-s23-plus-600x600.jpg",
+        "name": "Samsung Galaxy S23+ 5G",
+        "price": 23990000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-s23-plus",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/245545/iPhone-14-plus-thumb-den-600x600.jpg",
+        "name": "iPhone 14 Plus",
+        "price": 21890000,
+        "url": "https://www.thegioididong.com/dtdd/iphone-14-plus",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/250625/samsung-galaxy-z-fold4-kem-256gb-600x600.jpg",
+        "name": "Samsung Galaxy Z Fold4 5G",
+        "price": 34990000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-z-fold4",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/291623/xiaomi-12t-thumb-600x600.jpg",
+        "name": "Xiaomi 12T 5G 256GB",
+        "price": 10490000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-12t-256gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/286702/Xiaomi-Redmi-A1-thumb-xanh-duong-600x600.jpg",
+        "name": "Xiaomi Redmi A1",
+        "price": 1990000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-a1",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/291697/vivo-y16-vang-thumb-600x600.jpg",
+        "name": "Vivo Y16",
+        "price": 3390000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y16-64gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/260546/oppo-reno8-pro-thumb-xanh-1-600x600.jpg",
+        "name": "OPPO Reno8 series",
+        "price": 17990000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-reno8-pro",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/249944/oppo-a55-4g-thumb-new-600x600.jpg",
+        "name": "OPPO A55",
+        "price": 3690000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a55-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/236780/iphone-13-mini-midnight-1-600x600.jpg",
+        "name": "iPhone 13 mini 128GB",
+        "price": 16990000,
+        "url": "https://www.thegioididong.com/dtdd/iphone-13-mini",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/285032/vivo-y02s-thumb-1-2-3-600x600.jpg",
+        "name": "Vivo Y02s",
+        "price": 2890000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y02s-32gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/292672/realme-10-thumb-1-600x600.jpg",
+        "name": "realme 10",
+        "price": 6490000,
+        "url": "https://www.thegioididong.com/dtdd/realme-10",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/274084/Nokia-C21-Plus-Gray-600x600.jpg",
+        "name": "Nokia C21 Plus",
+        "price": 2390000,
+        "url": "https://www.thegioididong.com/dtdd/nokia-c21-plus",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/283819/samsung-galaxy-a04s-den-thumb-1-600x600.jpg",
+        "name": "Samsung Galaxy A04s",
+        "price": 3590000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a04s",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/115343/vivo-y21-white-01-1-600x600.jpg",
+        "name": "Vivo Y21 series",
+        "price": 3090000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y21",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/250622/oppo-find-x5-pro-den-thumb-600x600.jpg",
+        "name": "OPPO Find X5 Pro 5G",
+        "price": 19990000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-find-x5-pro",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/264060/samsung-galaxy-s23-600x600.jpg",
+        "name": "Samsung Galaxy S23 5G",
+        "price": 19990000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-s23-5g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/267984/xiaomi-13-thumb-den-600x600.jpg",
+        "name": "Xiaomi 13 series",
+        "price": 18990000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-13",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg",
+        "name": "Samsung Galaxy S22 Ultra 5G",
+        "price": 18890000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-s22-ultra",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg",
+        "name": "Samsung Galaxy Z Flip4 5G",
+        "price": 17990000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-z-flip4",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/242439/Galaxy-S22-Plus-White-600x600.jpg",
+        "name": "Samsung Galaxy S22+ 5G",
+        "price": 17790000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-s22-plus",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/223602/iphone-13-blue-1-600x600.jpg",
+        "name": "iPhone 13",
+        "price": 17090000,
+        "url": "https://www.thegioididong.com/dtdd/iphone-13",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-tim-1-600x600.jpg",
+        "name": "iPhone 12",
+        "price": 14990000,
+        "url": "https://www.thegioididong.com/dtdd/iphone-12",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/236187/oppo-reno6-pro-grey-600x600.jpg",
+        "name": "OPPO Reno6 Pro 5G",
+        "price": 13990000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-reno6-pro-5g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/231110/Galaxy-S22-Black-600x600.jpg",
+        "name": "Samsung Galaxy S22 5G",
+        "price": 13640000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-s22",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/282389/vivo-v25-pro-5g-xanh-thumb-1-600x600.jpg",
+        "name": "Vivo V25 Pro 5G",
+        "price": 11990000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-v25-pro-5g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/247364/samsung-galaxy-m53-nau-thumb-600x600.jpg",
+        "name": "Samsung Galaxy M53 5G",
+        "price": 10990000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-m53",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/246195/samsung-galaxy-a73-5g-xanh-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A73 5G 128GB",
+        "price": 10340000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a73",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/278886/xiaomi-redmi-note-12-pro-5g-momo-1-600x600.jpg",
+        "name": "Xiaomi Redmi Note 12 Pro 5G",
+        "price": 9490000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-note-12-pro-5g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/303585/samsung-galaxy-a54-5g-tim-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A54 5G",
+        "price": 9490000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a54-5g-128gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/297026/vivo-v27e-1-600x600.jpg",
+        "name": "Vivo V27e",
+        "price": 8990000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-v27e",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/299248/oppo-reno8t-4g-den1-thumb-600x600.jpg",
+        "name": "OPPO Reno8 T",
+        "price": 8490000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-reno8-t",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/303583/samsung-galaxy-a34-5g-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A34 5G",
+        "price": 7930000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a34-5g-128gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/246196/Samsung-Galaxy-A53-xanh-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A53 5G 128GB",
+        "price": 7740000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a53",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/255513/realme-9-pro-plus-5g-blue-thumb-600x600.jpg",
+        "name": "realme 9 Pro+ 5G",
+        "price": 7690000,
+        "url": "https://www.thegioididong.com/dtdd/realme-9-pro-plus",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/271717/oppo-reno7-z-5g-thumb-2-1-600x600.jpg",
+        "name": "OPPO Reno7 series",
+        "price": 7490000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-reno7-z",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/299734/xiaomi-redmi-12-pro-4g-xanh-thumb-600x600.jpg",
+        "name": "Xiaomi Redmi Note 12 Pro 4G",
+        "price": null,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-note-12-pro-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/246640/xiaomi-redmi-note-11-pro-5g-xam-thumb-600x600.jpg",
+        "name": "Xiaomi Redmi Note 11 Pro 5G",
+        "price": 6890000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-note-11-pro-5g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/246199/samsung-galaxy-a33-5g-thumb-new-1-600x600.jpg",
+        "name": "Samsung Galaxy A33 5G 6GB",
+        "price": 6740000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a33",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/273335/xiaomi-redmi-note12s-den-thumb-600x600.jpg",
+        "name": "Xiaomi Redmi Note 12S",
+        "price": null,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-note-12s",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/292780/oppo-a77s-den-thumb-1-2-600x600.jpg",
+        "name": "OPPO A77s",
+        "price": 6290000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a77s",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/274381/oppo-a96-den-thumb-1-600x600.jpg",
+        "name": "OPPO A96",
+        "price": 6190000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a96-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/272016/sam-sung-galaxy-a23-5g-den-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A23 5G",
+        "price": 5540000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a23-5g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/251703/oppo-a95-4g-bac-2-600x600.jpg",
+        "name": "OPPO A95",
+        "price": 5490000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a95-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/245607/Vivo-V23e-1-2-600x600.jpg",
+        "name": "Vivo V23 series",
+        "price": 5490000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-v23e",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/270360/OPPO-A76-đen-600x600.jpg",
+        "name": "OPPO A76",
+        "price": 5190000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a76-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/271721/samsung-galaxy-a14-5g-nau-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A14 5G",
+        "price": 5190000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a14-5g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/278949/vivo-y55-den-thumb-600x600.jpg",
+        "name": "Vivo Y55",
+        "price": 5040000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y55-2022",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/267871/xiaomi-redmi-note-11s-xam-thumb-600x600.jpg",
+        "name": "Xiaomi Redmi Note 11S",
+        "price": 4990000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-note-11s",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/253137/vivo-t1x-xanh-thumb-600x600.jpg",
+        "name": "Vivo T1x",
+        "price": 4990000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-t1x",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/249102/Vivo-y33s-yellow-thumb-600x600.jpg",
+        "name": "Vivo Y33s",
+        "price": 4840000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y33s",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/262649/Realme-9i-xanh-thumb-600x600.jpg",
+        "name": "realme 9i (6GB/128GB)",
+        "price": 4590000,
+        "url": "https://www.thegioididong.com/dtdd/realme-9i",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/291696/vivo-y22s-vang-thumb-1-2-600x600.jpeg",
+        "name": "Vivo Y22s",
+        "price": 4590000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y22s-4gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/262402/Samsung-Galaxy-A13-cam-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A13",
+        "price": 4090000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a13-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/282090/oppo-a57-den-thumb-600x600.jpg",
+        "name": "OPPO A57",
+        "price": 4090000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a57-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/288401/oppo-a17-den-thumb-600x600.jpg",
+        "name": "OPPO A17",
+        "price": 3990000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a17",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/292770/samsung-galaxy-a14-black-thumb-600x600.jpg",
+        "name": "Samsung Galaxy A14 4G",
+        "price": 4690000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a14",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/303937/nokia-g22-xanh-thumb-1-2-600x600.jpg",
+        "name": "Nokia G22",
+        "price": 3690000,
+        "url": "https://www.thegioididong.com/dtdd/nokia-g22",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/261888/realme-c35-thumb-new-600x600.jpg",
+        "name": "realme C35",
+        "price": 2990000,
+        "url": "https://www.thegioididong.com/dtdd/realme-c35",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/288404/oppo-a17k-vang-thumb-ă-600x600.jpg",
+        "name": "OPPO A17K",
+        "price": 2990000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a17k",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/240631/oppo-a16-silver-8-600x600.jpg",
+        "name": "OPPO A16",
+        "price": 2790000,
+        "url": "https://www.thegioididong.com/dtdd/oppo-a16",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/302655/xiaomi-redmi-note-12-plus-xanh-duong-thumb-600x600.jpg",
+        "name": "Xiaomi Redmi A2+",
+        "price": null,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-a2-plus",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/304277/vivo-y02a-xanh-tim-thumb-600x600-600x600.jpg",
+        "name": "Vivo Y02A",
+        "price": 2790000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y02a",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/275434/samsung-galaxy-a04-thumb-1-600x600.jpg",
+        "name": "Samsung Galaxy A04",
+        "price": 2590000,
+        "url": "https://www.thegioididong.com/dtdd/samsung-galaxy-a04",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/249720/Vivo-y15s-2021-xanh-den-660x600.jpg",
+        "name": "Vivo Y15 series",
+        "price": 2490000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y15s-2021",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/292717/Nokia-C31-Green-thumb-600x600.jpg",
+        "name": "Nokia C31 (3GB/32GB)",
+        "price": 2490000,
+        "url": "https://www.thegioididong.com/dtdd/nokia-c31-3gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/292632/realme-c33-thumb-xanh-600x600.jpg",
+        "name": "realme C33",
+        "price": 2440000,
+        "url": "https://www.thegioididong.com/dtdd/realme-c33-3gb",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/268880/vivi-y01-đen-thumb-600x600.jpg",
+        "name": "Vivo Y01",
+        "price": 2390000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y01",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/298388/vivo-y02-xanh-thumb-1-2-600x600.jpg",
+        "name": "Vivo Y02",
+        "price": 2390000,
+        "url": "https://www.thegioididong.com/dtdd/vivo-y02",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/271734/xiaomi-redmi-10a-thumb-600x600.jpg",
+        "name": "Xiaomi Redmi 10A",
+        "price": 1690000,
+        "url": "https://www.thegioididong.com/dtdd/xiaomi-redmi-10a",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/251897/itel-l6502-den-600x600.jpg",
+        "name": "Itel L6502",
+        "price": 1690000,
+        "url": "https://www.thegioididong.com/dtdd/itel-l6502",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/286060/Nokia 8210-do-thumb-600x600.jpg",
+        "name": "Nokia 8210 4G",
+        "price": 1590000,
+        "url": "https://www.thegioididong.com/dtdd/nokia-8210-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/251896/itel-l6006-violet-600x600.jpg",
+        "name": "Itel L6006",
+        "price": 1490000,
+        "url": "https://www.thegioididong.com/dtdd/itel-l6006",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/228366/nokia-215-xanh-ngoc-new-600x600-600x600.jpg",
+        "name": "Nokia 215 4G",
+        "price": 990000,
+        "url": "https://www.thegioididong.com/dtdd/nokia-215",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/288631/mobell-rock-4-xanh-duong-thumb-600x600.jpg",
+        "name": "Mobell Rock 4",
+        "price": 810000,
+        "url": "https://www.thegioididong.com/dtdd/mobell-rock-4",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/285027/masstel-lux-20-xanh-thumb-600x600.jpeg",
+        "name": "Masstel Lux 20 4G",
+        "price": 800000,
+        "url": "https://www.thegioididong.com/dtdd/masstel-lux-20",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/240196/nokia-110-4g-yellow-600x600.jpg",
+        "name": "Nokia 110 4G",
+        "price": 770000,
+        "url": "https://www.thegioididong.com/dtdd/nokia-110-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/304608/mobell-f309-trang-thumb-600x600.jpg",
+        "name": "Mobell F309",
+        "price": 760000,
+        "url": "https://www.thegioididong.com/dtdd/mobell-f309",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/264121/masstel-fami-60-thumb-600x600.jpeg",
+        "name": "Masstel FAMI 60 4G",
+        "price": 750000,
+        "url": "https://www.thegioididong.com/dtdd/masstel-fami-60",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/288630/mobell-m539-do-thumb-600x600.jpg",
+        "name": "Mobell M539",
+        "price": 730000,
+        "url": "https://www.thegioididong.com/dtdd/mobell-m539",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/240194/nokia-105-4g-blue-600x600.jpg",
+        "name": "Nokia 105 4G",
+        "price": 720000,
+        "url": "https://www.thegioididong.com/dtdd/nokia-105-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/260146/itel-it9210-black-1-600x600.jpg",
+        "name": "Itel it9210 4G",
+        "price": 680000,
+        "url": "https://www.thegioididong.com/dtdd/itel-it9210",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/299998/mobell-f209-den-thumb-600x600.jpg",
+        "name": "Mobell F209",
+        "price": 670000,
+        "url": "https://www.thegioididong.com/dtdd/mobell-f209",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/274016/Masstel-FAMI-12-4G-vang-thumb-600x600.jpg",
+        "name": "Masstel FAMI 12 4G",
+        "price": 650000,
+        "url": "https://www.thegioididong.com/dtdd/masstel-fami-12-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/299610/masstel-izi-26-4g-thum-600x600.jpg",
+        "name": "Masstel IZI 26 4G",
+        "price": 600000,
+        "url": "https://www.thegioididong.com/dtdd/masstel-izi-26-4g",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/279401/itel-it9010-thumb-1-2-600x600.jpg",
+        "name": "Itel it9010 4G",
+        "price": 580000,
+        "url": "https://www.thegioididong.com/dtdd/itel-it9010",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/299611/masstel-lux-10-vang-thumb-600x600.jpg",
+        "name": "Masstel Lux 10 4G",
+        "price": 550000,
+        "url": "https://www.thegioididong.com/dtdd/masstel-lux-10",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/284122/mobell-m239-do-thumb-1-600x600.jpg",
+        "name": "Mobell M239",
+        "price": 390000,
+        "url": "https://www.thegioididong.com/dtdd/mobell-m239",
+        "category": "mobile"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/42/265311/masstel-izi-10-4g-xanh-thumb-600x600.jpg",
+        "name": "Masstel IZI 10 4G",
+        "price": 370000,
+        "url": "https://www.thegioididong.com/dtdd/masstel-izi-10-4g",
+        "category": "mobile"
+    }
+]

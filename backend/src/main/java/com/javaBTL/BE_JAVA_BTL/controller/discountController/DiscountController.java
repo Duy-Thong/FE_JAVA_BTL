@@ -1,0 +1,99 @@
+package com.javaBTL.BE_JAVA_BTL.controller.discountController;
+
+import com.javaBTL.BE_JAVA_BTL.model.discount.Discount;
+import com.javaBTL.BE_JAVA_BTL.service.discountDAO.DiscountService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
+@RestController
+@RequestMapping("/api/discounts")
+@CrossOrigin
+public class DiscountController {
+
+    @Autowired
+    private DiscountService discountService;
+
+    @GetMapping
+    public List<Discount> getAllDiscounts() {
+        return discountService.getAllDiscounts();
+    }
+
+    @GetMapping("/active")
+    public List<Discount> getActiveDiscounts() {
+        return discountService.getActiveDiscounts();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Discount> getDiscountById(@PathVariable UUID id) {
+        Optional<Discount> discount = discountService.getDiscountById(id);
+        return discount.map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    @GetMapping("/code/{code}")
+    public ResponseEntity<Discount> getDiscountByCode(@PathVariable String code) {
+        Optional<Discount> discount = discountService.getDiscountByCode(code);
+        return discount.map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    @PostMapping
+    public ResponseEntity<Discount> createDiscount(@RequestBody Discount discount) {
+        // Convert string dates to LocalDateTime if they're in string format from frontend
+        formatDates(discount);
+        Discount createdDiscount = discountService.createDiscount(discount);
+        return new ResponseEntity<>(createdDiscount, HttpStatus.CREATED);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Discount> updateDiscount(@PathVariable UUID id, @RequestBody Discount discount) {
+        // Convert string dates to LocalDateTime if they're in string format from frontend
+        formatDates(discount);
+        try {
+            Discount updatedDiscount = discountService.updateDiscount(id, discount);
+            return ResponseEntity.ok(updatedDiscount);
+        } catch (RuntimeException e) {
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteDiscount(@PathVariable UUID id) {
+        Optional<Discount> discount = discountService.getDiscountById(id);
+        if (discount.isPresent()) {
+            discountService.deleteDiscount(id);
+            return ResponseEntity.noContent().build();
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+    @PostMapping("/validate")
+    public ResponseEntity<Discount> validateDiscount(@RequestParam String code, @RequestParam(required = false, defaultValue = "0") double orderAmount) {
+        Optional<Discount> validDiscount = discountService.validateDiscount(code, orderAmount);
+        return validDiscount.map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    // Helper method to convert string dates from frontend to LocalDateTime
+    private void formatDates(Discount discount) {
+        // This method handles date conversion from ISO string format if needed
+        // The conversion is automatically handled by Jackson in most cases
+        if (discount.getStartDate() == null && discount.getEndDate() == null) {
+            DateTimeFormatter formatter = DateTimeFormatter.ISO_DATE_TIME;
+            try {
+                // No need to do anything if dates are already in LocalDateTime format
+            } catch (Exception e) {
+                // Log error if needed
+            }
+        }
+    }
+} 

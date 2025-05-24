@@ -1,0 +1,994 @@
+[
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/247517/iPad-9-wifi-trang-600x600.jpg",
+        "name": "iPad 9 WiFi",
+        "price": 7990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-gen-9",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/294103/iPad-gen-10-1-600x600.jpg",
+        "name": "iPad 10 WiFi",
+        "price": 11190000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-gen-10",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/269328/ipad-pro-m1-11-inch-wifi-2tb-2021-bac-thumb-600x600.jpeg",
+        "name": "iPad Pro M1 11 inch WiFi 2TB (2021)",
+        "price": 44990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-pro-m1-11-inch-wifi-2tb-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/274155/ipad-air-5-wifi-cellular-pink-thumb-600x600.jpg",
+        "name": "iPad Air 5 M1 5G",
+        "price": 16990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-air-5-m1-wifi-cellular-64gb",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/238649/ipad-pro-2021-129-inch-silver-600x600.jpg",
+        "name": "iPad Pro M1 12.9 inch 5G",
+        "price": 29290000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-pro-m1-129-inch-wifi-cellular-128gb-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/251704/samsung-galaxy-tab-a8-thumb-1-600x600.jpg",
+        "name": "Samsung Galaxy Tab A8 (2022)",
+        "price": 6990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-a8",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/222806/lenovo-tab-a22-xam-600x600.jpg",
+        "name": "Lenovo Tab M8",
+        "price": 2490000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/lenovo-tab-m8",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/237325/samsung-galaxy-tab-a7-lite-gray-600x600.jpg",
+        "name": "Samsung Galaxy Tab A7 Lite",
+        "price": 4490000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-a7-lite",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/247513/samsung-tab-s8-ultra-thumb-600x600.jpg",
+        "name": "Samsung Galaxy Tab S8 Ultra 5G",
+        "price": 30990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-s8-ultra",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/240254/samsung-galaxy-tab-s7-fe-black-600x600.jpg",
+        "name": "Samsung Galaxy Tab S7 FE 4G",
+        "price": 13990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-s7-fan-editon",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/269330/pad-pro-m1-11-inch-wifi-cellular-1tb-2021-xam-thumb-600x600.jpeg",
+        "name": "iPad Pro M1 11 inch WiFi Cellular 2TB (2021)",
+        "price": 50990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-pro-m1-11-inch-wifi-cellular-2tb-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/259650/ipad-pro-m1-129-inch-wifi-sliver-thumb-600x600.jpg",
+        "name": "iPad Pro M1 12.9 inch WiFi",
+        "price": 32690000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-pro-m1-129-inch-wifi-512gb-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/294104/ipad-pro-m2-11-wifi-xam-thumb-600x600.jpg",
+        "name": "iPad Pro M2 11 inch WiFi",
+        "price": 20990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-pro-m2-11-inch",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/250734/ipad-mini-6-wifi-cellular-pink-1-600x600.jpg",
+        "name": "iPad mini 6 WiFi Cellular 64GB",
+        "price": 15990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-mini-6-wifi-cellular-64gb",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/248096/ipad-air-5-wifi-grey-thumb-600x600.jpg",
+        "name": "iPad Air 5 M1 Wifi 64GB",
+        "price": 14490000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-air-5",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/295453/ipad-10-wifi-cellular-blue-thumb-600x600.jpeg",
+        "name": "iPad 10 WiFi + Cellular 64GB",
+        "price": 14290000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-10-wifi-cellular-64gb",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/250731/iPad-9-5G-trang-600x600.jpg",
+        "name": "iPad 9 4G",
+        "price": 9990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-9-wifi-cellular-64gb",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/244565/lenovo-yoga-tab-11-thumb-600x600.jpg",
+        "name": "Lenovo Yoga Tab 11",
+        "price": 9190000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/lenovo-yoga-tab-11",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/305838/oppo-pad-air-128gb-thumbnew-600x600.jpeg",
+        "name": "OPPO Pad Air 128GB",
+        "price": 7990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/oppo-pad-air-128gb",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/244684/lenovo-tab-p11-plus-2-600x600.jpg",
+        "name": "Lenovo Tab P11 Plus",
+        "price": 6990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/lenovo-tab-p11-plus",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/281821/OPPO-pad-thumb-xám-600x600.jpg",
+        "name": "OPPO Pad Air 64GB",
+        "price": 6690000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/oppo-pad-air",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/291769/Redmi-Pad-Sliver-thumb-org-1-2-600x600.jpg",
+        "name": "Xiaomi Redmi Pad (4GB/128GB)",
+        "price": 5990000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/xiaomi-redmi-pad-4gb",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/281633/Redmi-Pad-green-thumb-org-600x600.jpg",
+        "name": "Xiaomi Redmi Pad (3GB/64GB)",
+        "price": 5290000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/xiaomi-redmi-pad",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/285039/lenovo-tab-m10-gen-3-1-2-600x600.jpg",
+        "name": "Lenovo Tab M10 (Gen 3)",
+        "price": 4490000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/lenovo-tab-m10-gen-3",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/235366/tab-m10-gen-2-600x600-600x600.jpg",
+        "name": "Lenovo Tab M10",
+        "price": 4290000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/lenovo-tab-m10-gen-2",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/266337/nokia-tab-t20-wifi-thumb-600x600-1-600x600.jpeg",
+        "name": "Nokia Tab T20 WIFI",
+        "price": 4190000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/nokia-tab-t20-wifi",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/260139/masstel-tab-10a-den-1-600x600.jpg",
+        "name": "Masstel Tab 10A",
+        "price": 2790000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/masstel-tab-10a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/259939/masstel-tab-10s-đen-1-1-2-3-4-600x600.jpg",
+        "name": "Masstel Tab 10S",
+        "price": 2690000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/masstel-tab-10s",
+        "category": "tablet"
+    },
+    {
+        "retailer": "tgdd",
+        "img_url": "https://cdn.tgdd.vn/Products/Images/522/260138/masstel-tab-82-den-1-600x600.jpg",
+        "name": "Masstel Tab 8.2",
+        "price": 2390000,
+        "url": "https://www.thegioididong.com/may-tinh-bang/masstel-tab-82",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64422_may_tinh_bang_apple_ipad_gen_9_10_2_2.png",
+        "name": "Máy tính bảng Apple Ipad Gen 9 10.2 (MK2L3ZA/A) (64GB/Wifi/10.2 inch/Bạc/2021)",
+        "price": 7899000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-gen-9-10-2-mk2l3za-a-64gb-wifi-10-2-inch-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64423_may_tinh_bang_apple_ipad_gen_9_10_2_2.png",
+        "name": "Máy tính bảng Apple Ipad Gen 9 10.2 (MK2K3ZA/A) (64GB/Wifi/10.2 inch/Xám/2021)",
+        "price": 7899000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-gen-9-10-2-mk2k3za-a-64gb-wifi-10-2-inch-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64509_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK7P3ZA/A) (64GB/Wifi/8.3 inch/Bạc/2021)",
+        "price": 12899000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk7p3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60368_may_tinh_bang_samsung_galaxy_tab_a7_lite_t225_xam_2021_4.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab A7 Lite (T225) (32GB/8.7 inch/Wifi/4G/Android 11/Xám) (2021)",
+        "price": 3499000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-a7-lite-t225-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60369_may_tinh_bang_samsung_galaxy_tab_a7_lite_t225_bac_2021_5.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab A7 Lite (T225) (32GB/8.7 inch/Wifi/4G/Android 11/Bạc) (2021)",
+        "price": 3499000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-a7-lite-t225-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_65742_may_tinh_bang_samsung_galaxy_tab_a8_2.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab A8 X205 (64GB/10.5 inch/Wifi/4G/Android 11/Xám) (2022)",
+        "price": 6999000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-a8-x205-64gb-10.5-inch-wifi-4g-android-11-xam-2022",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64418_may_tinh_bang_apple_ipad_gen_9_10_2_2.png",
+        "name": "Máy tính bảng Apple Ipad Gen 9 10.2 (MK4H3ZA/A) (256GB/Wifi/10.2 inch/4G/Bạc/2021)",
+        "price": 16299000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-gen-9-10-2-mk4h3za-a-256gb-wifi-10-2-inch-4g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60375_may_tinh_bang_samsung_galaxy_tab_s7_fe_64gb_den_2021.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab S7 FE (64GB/12.4 inch/Wifi/4G/Android 11/ Bút cảm ứng/Đen) (2021)",
+        "price": 12299000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-s7-fe-64gb-den-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64424_may_tinh_bang_apple_ipad_gen_9_10_2_2.png",
+        "name": "Máy tính bảng Apple Ipad Gen 9 10.2 (MK493ZA/A) (64GB/Wifi/10.2 inch/4G/Bạc/2021)",
+        "price": 12499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-gen-9-10-2-mk493za-a-64gb-wifi-10-2-inch-4g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64425_may_tinh_bang_apple_ipad_gen_9_10_2_2.png",
+        "name": "Máy tính bảng Apple Ipad Gen 9 10.2 (MK473ZA/A) (64GB/Wifi/10.2 inch/4G/Xám/2021)",
+        "price": 12499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-gen-9-10-2-mk473za-a-64gb-wifi-10-2-inch-4g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59149_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHR83ZA/A) (512GB/12.9 inch/Wifi/5G/Xám/2021)",
+        "price": 38999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhr83za-a-512gb-5g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59150_may_tinh_bang_apple_ipad_pro_12_9_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHR93ZA/A) (512GB/12.9 inch/Wifi/5G/Bạc/2021)",
+        "price": 38899000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhr93za-a-512gb-5g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_65741_may_tinh_bang_samsung_galaxy_tab_a8_1.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab A8 X205 (64GB/10.5 inch/Wifi/4G/Android 11/Bạc) (2022)",
+        "price": 7099000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-a8-x205-64gb-10.5-inch-wifi-4g-android-11-bac-2022",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59137_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHNF3ZA/A) (128GB/12.9 inch/Wifi/Xám/2021)",
+        "price": 27799000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhnf3za-a-wifi-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59138_may_tinh_bang_apple_ipad_pro_12_9_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHNG3ZA/A) (128GB/12.9 inch/Wifi/Bạc/2021)",
+        "price": 27799000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhng3za-a-wifi-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_52585_may_tinh_bang_samsung_galaxy_tab_a8_t295_32gb_8_inch_wifi_4g_android_9_0_bac_2019____1_.jpg",
+        "name": "Máy tính bảng Samsung Galaxy Tab A8 (T295) (32GB/8 inch/Wifi/4G/Android 9.0/Bạc) (2019)",
+        "price": 3099000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-a8-t295-32gb-8-inch-wifi-4g-android-9-0-bac-2019",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_52582_may_tinh_bang_samsung_galaxy_tab_a8_t295_32gb_8_inch_wifi_4g_android_9_0_den_2019__1_.jpg",
+        "name": "Máy tính bảng Samsung Galaxy Tab A8 (T295) (32GB/8 inch/Wifi/4G/Android 9.0/Đen) (2019)",
+        "price": 3099000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-a8-t295-32gb-8-inch-wifi-4g-android-9-0-den-2019",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64523_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MLX93ZA/A) (256GB/Wifi/5G/8.3 inch/Hồng/2021)",
+        "price": 22499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mlx93za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64519_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MLX43ZA/A) (64GB/Wifi/5G/8.3 inch/Hồng/2021)",
+        "price": 17999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mlx43za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64515_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MLWR3ZA/A) (256GB/Wifi/8.3 inch/Hồng/2021)",
+        "price": 17999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mlwr3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64511_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MLWL3ZA/A) (64GB/Wifi/8.3 inch/Hồng/2021)",
+        "price": 13999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mlwl3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64522_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK8K3ZA/A) (256GB/Wifi/5G/8.3 inch/Tím/2021)",
+        "price": 22499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk8k3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64518_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK8E3ZA/A) (64GB/Wifi/5G/8.3 inch/Tím/2021)",
+        "price": 17999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk8e3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64514_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK7X3ZA/A) (256GB/Wifi/8.3 inch/Tím/2021)",
+        "price": 17999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk7x3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64510_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK7R3ZA/A) (64GB/Wifi/8.3 inch/Tím/2021)",
+        "price": 13999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk7r3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64521_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK8H3ZA/A) (256GB/Wifi/5G/8.3 inch/Bạc/2021)",
+        "price": 22499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk8h3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64517_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK8C3ZA/A) (64GB/Wifi/5G/8.3 inch/Bạc/2021)",
+        "price": 17999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk8c3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64513_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK7V3ZA/A) (256GB/Wifi/8.3 inch/Bạc/2021)",
+        "price": 17999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk7v3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64520_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK8F3ZA/A) (256GB/Wifi/5G/8.3 inch/Xám/2021)",
+        "price": 22499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk8f3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64516_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK893ZA/A) (64GB/Wifi/5G/8.3 inch/Xám/2021)",
+        "price": 17999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk893za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64512_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK7T3ZA/A) (256GB/Wifi/8.3 inch/Xám/2021)",
+        "price": 17999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk7t3za-a",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64508_may_tinh_bang_apple_ipad_mini_8_3_3.png",
+        "name": "Máy tính bảng Apple Ipad mini 8.3 (MK7M3ZA/A) (64GB/Wifi/8.3 inch/Xám/2021)",
+        "price": 13999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-mini-8-3-mk7m3za",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64421_may_tinh_bang_apple_ipad_gen_9_10_2_2.png",
+        "name": "Máy tính bảng Apple Ipad Gen 9 10.2 (MK2N3ZA/A) (256GB/Wifi/10.2 inch/Xám/2021)",
+        "price": 13099000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-gen-9-10-2-mk2n3za-a-256gb-wifi-10-2-inch-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64419_may_tinh_bang_apple_ipad_gen_9_10_2_2.png",
+        "name": "Máy tính bảng Apple Ipad Gen 9 10.2 (MK4E3ZA/A) (256GB/Wifi/10.2 inch/4G/Xám/2021)",
+        "price": 16999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-gen-9-10-2-mk4e3za-a-256gb-wifi-10-2-inch-4g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64420_may_tinh_bang_apple_ipad_gen_9_10_2_2.png",
+        "name": "Máy tính bảng Apple Ipad Gen 9 10.2 (MK2P3ZA/A) (256GB/Wifi/10.2 inch/Bạc/2021)",
+        "price": 13099000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-gen-9-10-2-mk2p3za-a-256gb-wifi-10-2-inch-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64415_may_tinh_bang_apple_ipad_air_4_3.png",
+        "name": "Máy tính bảng Apple Ipad Air 4 10.9 (MYH22ZA/A) (256GB/Wifi/10.9 inch/4G/Xám/2020)",
+        "price": 23499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-air-4-10-9-myh22za-a-xam-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64417_may_tinh_bang_apple_ipad_air_4_3.png",
+        "name": "Máy tính bảng Apple Ipad Air 4 10.9 (MYH42ZA/A) (256GB/Wifi/10.9 inch/4G/Bạc/2020)",
+        "price": 23499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-air-4-10-9-myh42za-a-256gb-wifi-10-9-inch-4g-bac-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_64416_may_tinh_bang_apple_ipad_air_4_3.png",
+        "name": "Máy tính bảng Apple Ipad Air 4 (MYFM2ZA/A) (64GB/10.9 inch/Wifi/Xám)",
+        "price": 15499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-air-4-myfm2za-a-64gb-10-9-inch-wifi-xam",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59147_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHR63ZA/A) (256GB/12.9 inch/Wifi/5G/Xám/2021)",
+        "price": 34999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhr63za-a-wifi-5g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59148_may_tinh_bang_apple_ipad_pro_12_9_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHR73ZA/A) (256GB/12.9 inch/Wifi/5G/Bạc/2021)",
+        "price": 34999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhr73za-a-wifi-5g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59139_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHNH3ZA/A) (256GB/12.9 inch/Wifi/Xám/2021)",
+        "price": 33119000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhnh3za-a-wifi-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59140_may_tinh_bang_apple_ipad_pro_12_9_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHNJ3ZA/A) (256GB/12.9 inch/Wifi/Bạc/2021)",
+        "price": 33119000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhnj3za-a-wifi-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59141_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHNK3ZA/A) (512GB/12.9 inch/Wifi/Xám/2021)",
+        "price": 38879000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhnk3za-a-512gb-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59142_may_tinh_bang_apple_ipad_pro_12_9_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHNL3ZA/A) (512GB/12.9 inch/Wifi/Bạc/2021)",
+        "price": 38879000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhnl3za-a-512gb-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59143_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHNM3ZA/A) (1TB/12.9 inch/Wifi/Xám/2021)",
+        "price": 49989000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhnm3za-a-1tb-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59144_may_tinh_bang_apple_ipad_pro_12_9_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHNN3ZA/A) (1TB/12.9 inch/Wifi/Bạc/2021)",
+        "price": 49989000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhnn3za-a-1tb-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59145_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHR43ZA/A) (128GB/12.9 inch/Wifi/5G/Xám/2021)",
+        "price": 34539000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhr43za-a-wifi-5g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59146_may_tinh_bang_apple_ipad_pro_12_9_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHR53ZA/A) (128GB/12.9 inch/Wifi/5G/Bạc/2021)",
+        "price": 34539000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhr53za-a-wifi-5g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59151_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHRA3ZA/A) (1TB/12.9 inch/Wifi/5G/Xám/2021)",
+        "price": 54429000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhra3za-a-1tb-5g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59152_may_tinh_bang_apple_ipad_pro_12_9_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 12.9 M1 (MHRA3ZA/A) (1TB/12.9 inch/Wifi/5G/Xám/2021)",
+        "price": 54429000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-12.9-m1-mhra3za-a-1tb-5g-xam-2021-1",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59127_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHW53ZA/A) (128GB/11.0 inch/Wifi/5G/Xám/2021)",
+        "price": 25499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhw53za-a-wifi-5g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59128_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHW63ZA/A) (128GB/11.0 inch/Wifi/5G/Bạc/2021)",
+        "price": 25499000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhw63za-a-wifi-5g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59129_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHW73ZA/A) (256GB/11.0 inch/Wifi/5G/Xám/2021)",
+        "price": 27999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhw73za-a-wifi-5g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59130_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHW83ZA/A) (256GB/11.0 inch/Wifi/5G/Bạc/2021)",
+        "price": 27999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhw83za-a-wifi-5g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59131_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHW93ZA/A) (512GB/11.0 inch/Wifi/5G/Xám/2021)",
+        "price": 32999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhw93za-a-wifi-5g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59132_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHWA3ZA/A) (512GB/11.0 inch/Wifi/5G/Bạc/2021)",
+        "price": 32999000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhwa3za-a-wifi-5g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59133_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHWC3ZA/A) (1TB/11.0 inch/Wifi/5G/Xám/2021)",
+        "price": 45899000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhwc3za-a-wifi-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59134_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHWD3ZA/A) (1TB/11.0 inch/Wifi/5G/Xám/2021)",
+        "price": 45899000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhwc3za-a-wifi-xam-2021-1",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59119_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHQU3ZA/A) (256GB/11.0 inch/Wifi/Xám/2021)",
+        "price": 23599000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhqu3za-a-wifi-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59120_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHQV3ZA/A) (256GB/11.0 inch/Wifi/Bạc/2021)",
+        "price": 23599000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhqv3za-a-wifi-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59121_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHQW3ZA/A) (512GB/11.0 inch/Wifi/Xám/2021)",
+        "price": 28699000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhqw3za-a-wifi-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59122_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHQX3ZA/A) (512GB/11.0 inch/Wifi/Bạc/2021)",
+        "price": 28699000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhqx3za-a-wifi-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59118_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHQT3ZA/A) (128GB/11.0 inch/Wifi/Bạc/2021)",
+        "price": 20989000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhqt3za-a-wifi-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59117_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHQR3ZA/A) (128GB/11.0 inch/Wifi/Xám/2021)",
+        "price": 20989000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhqr3za-a-wifi-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60370_may_tinh_bang_samsung_galaxy_tab_s7_plus_128gb_den.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab S7 Plus (128GB/12.4 inch/Wifi/4G/Android 10/Bút cảm ứng/Đen)",
+        "price": 23509000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-s7-plus-128gb-den",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60371_may_tinh_bang_samsung_galaxy_tab_s7_plus_128gb_vang.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab S7 Plus (128GB/12.4 inch/Wifi/4G/Android 10/Bút cảm ứng/Vàng đồng)",
+        "price": 23509000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-s7-plus-128gb-vang-dong",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60372_may_tinh_bang_samsung_galaxy_tab_s7_128gb_den.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab S7 (128GB/11 inch/Wifi/4G/Android 10/Bút cảm ứng/Đen)",
+        "price": 23509000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-s7-128gb-den",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60373_may_tinh_bang_samsung_galaxy_tab_s7_128gb_vang.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab S7 (128GB/11 inch/Wifi/4G/Android 10/Bút cảm ứng/Vàng)",
+        "price": 18169000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-s7-128gb-vang",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60374_may_tinh_bang_samsung_galaxy_tab_s7_fe_64gb_xanh_2021.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab S7 FE (64GB/12.4 inch/Wifi/4G/Android 11/Bút cảm ứng/Xanh lá) (2021)",
+        "price": 14129000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-s7-fe-64gb-xanh-la-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60366_may_tinh_bang_samsung_galaxy_tab_a7_t505_64gb_2020_4.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab A7 (T505) (64GB/10.4 inch/Wifi/4G/Android 10/Vàng) (2020)",
+        "price": 7869000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-a7-t505-64gb-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_60367_may_tinh_bang_samsung_galaxy_tab_a7_t505_64gb_xam_2020_5.png",
+        "name": "Máy tính bảng Samsung Galaxy Tab A7 (T505) (64GB/10.4 inch/Wifi/4G/Android 10/Xám) (2020)",
+        "price": 7869000,
+        "url": "https://hacom.vn/may-tinh-bang-samsung-galaxy-tab-a7-t505-64gb-xam-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59123_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHQY3ZA/A) (1TB/11.0 inch/Wifi/Xám/2021)",
+        "price": 41709000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhqy3za-a-wifi-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59108_may_tinh_bang_apple_ipad_10_2_xam_2020_0003_4.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYL92ZA/A)(32GB/10.2 inch/Wifi/Xám/2020)",
+        "price": 9079000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-myl92za-a-wifi-xam-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59124_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHR03ZA/A) (1TB/11.0 inch/Wifi/Bạc/2021)",
+        "price": 41709000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhr03za-a-wifi-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59109_may_tinh_bang_apple_ipad_10_2_xam_2020_0003_4.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYMH2ZA/A) (32GB/10.2 inch/Wifi/4G/Xám/2020)",
+        "price": 12519000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-mymh2za-a-wifi-4g-xam-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59125_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHR23ZA/A) (2TB/11.0 inch/Wifi/Xám/2021)",
+        "price": 53019000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhr23za-a-wifi-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59110_may_tinh_bang_apple_ipad_10_2_bac_2020_0004_5.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYMJ2ZA/A) (32GB/10.2 inch/Wifi/4G/Bạc/2020)",
+        "price": 12519000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-mymj2za-a-wifi-4g-bac-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59126_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHR33ZA/A) (2TB/11.0 inch/Wifi/Bạc/2021)",
+        "price": 53019000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhr33za-a-wifi-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59111_may_tinh_bang_apple_ipad_10_2_vang_2020_0005_6.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYMK2ZA/A) (32GB/10.2 inch/Wifi/4G/Vàng/2020)",
+        "price": 12519000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-mymk2za-a-wifi-4g-vang-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59112_may_tinh_bang_apple_ipad_10_2_xam_2020_0003_4.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYLD2ZA/A) (128GB/10.2 inch/Wifi/Xám/2020)",
+        "price": 12619000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-myld2za-a-wifi-xam-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59113_may_tinh_bang_apple_ipad_10_2_bac_2020_0004_5.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYLE2ZA/A) (128GB/10.2 inch/Wifi/Bạc/2020)",
+        "price": 12619000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-myle2za-a-wifi-bac-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59114_may_tinh_bang_apple_ipad_10_2_vang_2020_0005_6.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYLF2ZA/A) (128GB/10.2 inch/Wifi/Vàng/2020)",
+        "price": 12619000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-mylf2za-a-wifi-vang-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59115_may_tinh_bang_apple_ipad_10_2_xam_2020_0003_4.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYML2ZA/A) (128GB/10.2 inch/Wifi/4G/Xám/2020)",
+        "price": 15139000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-myml2za-a-wifi-4g-xam-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_52645_may_tinh_bang_apple_ipad_pro_11_128gb_11_inch_wifi_4g_bac_2020__1_.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 (128GB/11 inch/Wifi/4G/Bạc/2020)",
+        "price": 25749000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-128gb-11-inch-wifi-4g-bac-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59116_may_tinh_bang_apple_ipad_10_2_bac_2020_0004_5.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (MYMM2ZA/A) (128GB/10.2 inch/Wifi/4G/Bạc/2020)",
+        "price": 15139000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10.2-mymm2za-a-wifi-4g-bac-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_52646_may_tinh_bang_apple_ipad_pro_11_256gb_11_inch_wifi_4g_xam_2020__1_.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 (256GB/11 inch/Wifi/4G/Xám/2020)",
+        "price": 29289000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-256gb-11-inch-wifi-4g-xam-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_52647_may_tinh_bang_apple_ipad_pro_11_256gb_11_inch_wifi_4g_bac_2020____1_.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 (256GB/11 inch/Wifi/4G/Bạc/2020)",
+        "price": 29289000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-256gb-11-inch-wifi-4g-bac-2020",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59135_may_tinh_bang_apple_ipad_pro_11_m1_xam_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHWE3ZA/A) (2TB/11.0 inch/Wifi/5G/Xám/2021)",
+        "price": 57559000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhwe3za-a-wifi-5g-xam-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_59136_may_tinh_bang_apple_ipad_pro_11_m1_bac_2021_0000_1.jpg",
+        "name": "Máy Tính Bảng Apple Ipad Pro 11 M1 (MHR33ZA/A) (2TB/11.0 inch/Wifi/5G/Bạc/2021)",
+        "price": 57559000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-pro-11-m1-mhr33za-a-wifi-5g-bac-2021",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_57642_may_tinh_bang_lenovo_tab_m10_tb_x306x_za6v0121vn_xam__1_.jpg",
+        "name": "Máy tính bảng Lenovo Tab M10 TB-X306X (ZA6V0121VN) (P22T 2.3Ghz/2GB/32GB/10.1 inch/Wifi/4G/Android/Xám)",
+        "price": 4639000,
+        "url": "https://hacom.vn/may-tinh-bang-lenovo-tab-m10-tb-x306x-za6v0121vn-xam",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_57643_tab_m10__5_.jpg",
+        "name": "Máy tính bảng Lenovo Tab M10 TB-X606X (ZA5V0362VN) (P22T 2.3Ghz/4GB/64GB/10.3 inch FHD Plus/Wifi/4G/Android/Xám)",
+        "price": 5749000,
+        "url": "https://hacom.vn/may-tinh-bang-lenovo-tab-m10-tb-x606x-za5v0362vn-xam",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_52564_may_tinh_bang_apple_ipad_10_2_32gb_10_2_inch_wifi_xam_2019__1_.jpg",
+        "name": "Máy Tính Bảng Apple Ipad 10.2 (32GB/10.2 inch/Wifi/Xám/2019)",
+        "price": 8789000,
+        "url": "https://hacom.vn/may-tinh-bang-apple-ipad-10-2-32gb-10-2-inch-wifi-xam-2019",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_57640_may_tinh_bang_lenovo_tab_m7_tb_7305x_za570100vn_xam__3_.jpg",
+        "name": "Máy tính bảng Lenovo Tab M7 TB-7305X (ZA570100VN) (MT8765D 1.3Ghz/2GB/32GB/7.0 inch/Wifi/4G/Android/Xám)",
+        "price": 2819000,
+        "url": "https://hacom.vn/may-tinh-bang-lenovo-tab-m7-tb-7305x-za570100vn-xam",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_57641_may_tinh_bang_lenovo_tab_m8_tb_8505x_za5h0113vn_xam.jpg",
+        "name": "Máy tính bảng Lenovo Tab M8 TB-8505X (ZA5H0113VN) (A22 2.0Ghz/3GB/32GB/8.0 inch/Wifi/4G/Android/Xám)",
+        "price": 3729000,
+        "url": "https://hacom.vn/may-tinh-bang-lenovo-tab-m8-tb-8505x-za5h0113vn-xam",
+        "category": "tablet"
+    },
+    {
+        "retailer": "hnc",
+        "img_url": "https://hanoicomputercdn.com/media/product/250_57639_may_tinh_bang_lenovo_tab_e7_tb_7104i_za410065vn_den__1_.jpg",
+        "name": "Máy tính bảng Lenovo Tab E7 TB-7104I (ZA410065VN) (MT8167D 1.3Ghz/1GB/16GB/7.0 inch/Wifi/3G+Voice/Android GO/Đen)",
+        "price": 2009000,
+        "url": "https://hacom.vn/may-tinh-bang-lenovo-tab-e7-tb-7104i-za410065vn-den",
+        "category": "tablet"
+    }
+]
